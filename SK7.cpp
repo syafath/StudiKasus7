@@ -46,17 +46,17 @@ void data::proses(){
 	             nim[b] = nim[b-1];
 	             nim[b-1] = tmp;
 	             
-	        	tmp = nama[j];
-				nama[j] = nama[j-1];
-				nama[j-1] = tmp;
+	        	tmp = nama[b];
+				nama[b] = nama[b-1];
+				nama[b-1] = tmp;
 				
-				tmp = prodi[j];
-				prodi[j] = prodi[j-1];
-				prodi[j-1] = tmp;
+				tmp = prodi[b];
+				prodi[b] = prodi[b-1];
+				prodi[b-1] = tmp;
 				
-				tmp = nohp[j];
-				nohp[j] = nohp[j-1];
-				nohp[j-1] = tmp;
+				tmp = nohp[b];
+				nohp[b] = nohp[b-1];
+				nohp[b-1] = tmp;
 	            }
 	
 	            }
